@@ -7,11 +7,9 @@
 
 adjective <- c(
   "adorable",
-  "amazing",
+  "attrative",
   "astonishing",
-  "bravissimo",
   "breathtaking",
-  "brightest",
   "brilliant",
   "charming",
   "chic",
@@ -22,7 +20,6 @@ adjective <- c(
   "epic",
   "excellent",
   "exclusive",
-  "exceptional",
   "extraordinary",
   "fabulous",
   "fancy",
@@ -42,6 +39,7 @@ adjective <- c(
   "solid",
   "special",
   "spectacular",
+  "serious",
   "terrific",
   "tremendous",
   "tubular",
@@ -60,10 +58,10 @@ adverb <- adverb_manner
 
 
 exclamation <- c(
-  "Ah",
+  "Ahh",
   "Aww",
-  "Ho-Ho",
-  "Mmmh"
+  "Eh",
+  "Mmm"
 )
 
 rpackage <- c(
