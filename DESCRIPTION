@@ -1,6 +1,6 @@
 Package: WQschaumal
 Type: Package
-Title: What the Package Does (Title Case)
+Usage: WQ()
 Version: 0.1.0
 Author: LL
 Maintainer: LL
