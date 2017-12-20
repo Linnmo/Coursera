@@ -91,7 +91,7 @@ praise_parts <- list(
 )
 
 
-WQ <- function(template = "WQ, you are seriously ${adjective}! If you happen to see this <3, I have something to tell you.. It is never late.") {
+WQ <- function(template = "WQ, you are seriously ${adjective}! If you happen to see this <3, hope it is never too late.") {
   while (is_template(template)) {
     template <- replace_one_template(template)
   }
