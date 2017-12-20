@@ -60,7 +60,6 @@ adverb <- adverb_manner
 exclamation <- c(
   "Ahh",
   "Aww",
-  "Eh",
   "Mmm"
 )
 
@@ -92,7 +91,7 @@ praise_parts <- list(
 )
 
 
-WQ <- function(template = "${exclamation} Wei Qiang, you are seriously ${adjective}! ;) ") {
+WQ <- function(template = "WQ, you are seriously ${adjective}! 比心 <3 ") {
   while (is_template(template)) {
     template <- replace_one_template(template)
   }
